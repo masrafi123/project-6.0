@@ -1,0 +1,27 @@
+/* univarcel selector */
+* {
+  text-align: center;
+}
+/* id selector */
+#admin-box {
+  background-color: aqua;
+  width: 500px;
+}
+/* descendent selector */
+form input {
+  width: 90%;
+}
+p a {
+  text-decoration-line: overline;
+  text-transform: uppercase;
+}
+/* attribute selector */
+input[type="submit"] {
+  width: 30%;
+  color: tomato;
+}
+/* psudo class selector */
+input[type="submit"]:hover {
+  background-color: cadetblue;
+  cursor: pointer;
+}
